@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "glassit.alpha": 20,
+        "glassit.force_sway": false,
+        "glassit.step": 142
+    }
+}

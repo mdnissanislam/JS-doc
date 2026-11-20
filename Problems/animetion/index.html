@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- animation -->
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-space-evenly">
+                <!-- 1st item -->
+                <div class="col-3">
+                    <div class="h-100 d-flex flex-column justify-content-center align-items-center">
+                        <div class="box d-flex justify-content-center align-items-center rounded-4">
+                            <!-- wheel -->
+                            <div
+                                class="wheel d-flex flex-column justify-content-center align-items-center rounded-circle">
+                                <div class="rectangleTop rounded-circle"></div>
+                                <div class="d-flex">
+                                    <div class="rectangle rounded-circle"></div>
+                                    <div class="wheelInner rounded-circle"></div>
+                                    <div class="rectangle rounded-circle"></div>
+                                </div>
+                                <div class="rectangleBottom rounded-circle"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-dark mt-1" id="speed1">01</button>
+                            <button class="btn btn-dark mt-1" id="speed2">02</button>
+                            <button class="btn btn-dark mt-1" id="speed3">03</button>
+                            <button class="btn btn-dark mt-1" id="speed4">04</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-dark mt-1" id="start">start</button>
+                            <button class="btn btn-dark mt-1" id="stop">stop</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd item -->
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- js -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

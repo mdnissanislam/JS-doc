@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.form1{
+    background-color: #dcdcdc;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.fbtn{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Side bar */
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #dcdcdc;
+    transition: width 4s ease-in;
+    border: 2px solid #dcdcdc;
+    border-top-left-radius: 20px;
+}
+.sidebtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+    background-color: White;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

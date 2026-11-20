@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript</title>
+  </head>
+<body>
+  <!-- To Do List -->
+  <section>
+    <div class="container">
+      <h2 class="txt-align-center">To Do List</h2>
+      <div class="task-list border mt-20 mx-auto">
+        <!-- Input -->
+        <div class="d-flex justify-content-center align-items-center mx-auto w-50">
+          <input id="task-list" type="text" placeholder="Enter your task">
+          <button class="btn">Add</button>
+          <div class="list-container border"></div>
+        </div>
+        <!-- lists -->
+        <div class="task-lists">
+          <!-- task-01 -->
+          <div class="d-flex task">
+            <p>Comand</p>
+            <button class="btn">Delete</button>
+            <button class="btn">Edit</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <section>
+    <div class="container">
+      <h1 id="title">Please click the bellow button.</h1>
+      <button class="d-block" onclick="changeText()">Change</button>
+      <!-- Interactive Button -->
+      <button class="mt-20" onclick="toggleColor()">Toggle Color</button>
+      <p id="text">Hello</p>
+    </div>
+  </section>
+  <!-- module -->
+  <section>
+    <div class="container">
+      <h1 id="modules"></h1>
+    </div>
+  </section>
+  <!--  -->
+  <section>
+    <div class="container">
+      <h2 id="myBtn2">Waiting for click!</h2>
+      <button id="myBtn">Click me</button>
+    </div>
+  </section>
+  <!-- HTML Templates -->
+  <section>
+    <div class="container">
+      <p id="htmltemplates"></p>
+    </div>
+  </section>
+  
+  <!-- array.js -->
+  <section>
+    <div class="container">
+      <center><p>Array</p></center>
+      <p id="array1"></p>
+      <center><p>Array1</p></center>
+      <p id="array2"></p>
+      
+    </div>
+  </section>
+
+
+  <!-- javascript link -->
+  <script>
+    // Write JavaScript code here
+    console.log("Hello, JavaScript!");
+    // HTML DOM
+    function changeText() {
+      let tilte = document.getElementById("title");
+      tilte.innerHTML = "Welcome to change your title.";
+    }
+    // document.getElementById - selects an HTML element.
+
+    // textContent or innerHTML -  changes the text inside the element.
+
+    // onclick - triggers the function when the button is clicked.
+
+    function toggleColor() {
+    let text = document.getElementById("text");
+    text.style.color = text.style.color === "red" ? "black" : "red";
+  }
+
+  </script>
+
+  <!-- <script type="module">
+    // modules
+    import{welcome} from './index.js'
+    let text = document.getElementById('modules');
+    text.innerHTML = welcome();
+  </script> -->
+
+  <!-- <script>
+    // Event Listeners
+    document.addEventListener("DOMContentLoaded", () =>{
+        document.getElementById('myBtn').addEventListener("click", () => {
+        let text = document.getElementById('myBtn2');
+        text.innerHTML = "Button clicked!";
+      });
+    });
+  </script> -->
+  
+  <!-- <script src="./operator.js"></script> -->
+  <!-- <script src="./function.js"></script> -->
+  <script src="./objects.js"></script>
+  <!-- <script src="./asynchronous.js"></script> -->
+  <!-- <script src="./strings.js"></script> -->
+  <!-- <script src="./array.js"></script> -->
+  <!-- <script src="./numbers.js"></script> -->
+  <!-- <script src="./objects.js"></script> -->
+  <!-- <script src="./objects.js"></script> -->
+  <!-- <script src="./objects.js"></script> -->
+  <!-- <script src="./objects.js"></script> -->
+</body>
+</html>

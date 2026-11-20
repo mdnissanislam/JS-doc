@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(88, 88, 88);
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.todoheader{
+    font-size: 35px;
+    text-align: center;
+}
+.input-field{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.input-field button{
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.todoinput{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8c8c8c;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.todoinput:focus{
+    font-weight: 600;
+    color: black;
+}
+.list-container{
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+.myP,.edit{
+    width: 70%;
+    font-weight: 600;
+    margin: 0 auto 0 0;;
+}
+.edit{
+    display: none;
+}
+.dbtn,.ebtn,.sbtn{
+    font-weight: 600;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
+    cursor: pointer;
+}
+.ebtn, .sbtn{
+    margin-left: 10px;
+}
+.sbtn{
+    display: none;
+}

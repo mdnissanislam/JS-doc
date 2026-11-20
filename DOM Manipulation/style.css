@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+    font-weight: 600;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+div,.newDiv{
+    background-color: red;
+    padding: 20px;
+}
+.myDiv{
+    background-color: green;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.fs{
+    font-size: 50px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#colorChange{
+    height: 100px;
+    margin: 20px;
+}
+#colorGenerate{}
+#colorPic{
+    padding: 10px;
+}
+#colorApply{}
